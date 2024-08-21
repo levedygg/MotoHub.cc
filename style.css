@@ -26,6 +26,7 @@ body {
     display: flex;
     gap: 20px;
     align-items: center;
+    color: #000;
 }
 
 .button {
@@ -211,4 +212,12 @@ body {
         flex-direction: column;
         gap: 30px;
     }
+}
+.button:hover,
+.button-2:hover,
+.button-3:hover,
+.button-4:hover,
+.buy-button:hover {
+  background-color: #fff;
+  color: #000;
 }
